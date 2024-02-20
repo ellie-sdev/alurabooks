@@ -1,10 +1,10 @@
 # Anotações sobre as ferramentas utilizadas para criar este projeto 📖
 
-[Clique aqui](https://alura-liard-theta.vercel.app/) para acessar o site do projeto!
+[Clique aqui](https://ellie-sdev.github.io/alurabooks/) para acessar o site do projeto!
 
 Vista do site:
 <div align=middle>
-<img width=50%  src="https://github.com/ellie-sdev/alura/blob/main/assets/print-pagina.png" alt="print da tela inicial do projeto"></div>
+<img width=50%  src="https://github.com/ellie-sdev/alurabooks/blob/main/img/print-alurabooks-site.png" alt="print da tela inicial do sitehttps://ellie-sdev.github.io/alurabooks/"></div>
 
 ## ⭐CSS display
 
