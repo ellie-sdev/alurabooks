@@ -1,0 +1,75 @@
+.rodape {
+    display: flex;
+    border-top: 1px solid #000000;
+    background-color: var(--branco);
+    width: 100%;
+    
+}
+.rodape__titulo {
+    font-size: 16px;
+    padding: 1em;
+}
+
+.rodape__listas {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .rodape {
+        justify-content: center;
+        gap: 3em;
+        background-color: var(--cor-de-fundo-sec);
+    }
+    .rodape__titulo {
+        font-size: 24px;
+        padding: 3em 10% 0 0;
+    }
+
+    .rodape__listas {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3em;
+        
+    }
+
+    .rodape__listas-titulo {
+        text-transform: uppercase;
+        color: var(--cinza);
+        padding: 2em 0;
+    }
+
+    .rodape__listas-item {
+        color: var(--cinza-escuro);
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        padding: 0.5em 0;
+    }
+    /*mudando a cor da fonte dos itens do rodapé ao passar o mouse*/
+    
+    .rodape__listas-item:hover {
+        color: var(--azul);
+    }
+
+    .rodape__lista-icone {
+        width: 35px;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .rodape {
+        padding: 3em 0;
+        gap: 2em;
+    }
+
+    .rodape__listas {
+        padding-right: 5%;
+        padding-left: 2em;
+        border-left: 1px solid var(--cinza);
+    }
+
+    .rodape__listas-titulo {
+        padding: 0 0 2em 0;
+    }
+}
