@@ -32,8 +32,12 @@
     font-weight: 400;
     text-align:center;
     color: var(--branco);
-    background: url("../img/Lupa.svg") no-repeat 2em;
-    
+    background: url("../img/Lupa.svg") no-repeat 2em;   
+}
+
+.banner__pesquisa:focus::placeholder {
+    color: transparent;
+    background: transparent;
 }
 
 @media screen and (min-width:1024px) {
