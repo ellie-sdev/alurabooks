@@ -31,6 +31,11 @@
     padding-left: 2em;
 }
 
+.novidades__inserir:focus::placeholder {
+    color: transparent;
+    background: transparent;
+}
+
 @media screen and (min-width:1024px) {
     .novidades {
         display: flex;
