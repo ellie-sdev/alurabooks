@@ -173,6 +173,7 @@ Neste exemplo, o ~ seleciona TODOS os elementos <p> irmãos do elemento <div>
     :checked
     :hover
     -webkit
+    :focus
 
 # ⭐Media queries
 
