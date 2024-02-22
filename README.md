@@ -187,6 +187,18 @@ Caso a resolução seja maior que 1024px, então ele vai executar os novos coman
 
 No desktop-first usamos max width
 
+# ⭐Recebi uma ajuda no fórum do alura do Adriano (obrigada)
+
+O problema era que, quando abria o menu hamburguer, os itens do menu ficavam atrás do pagination e carrosel.
+
+* Solução:
+  
+A tag "ul" que contém a classe "lista-menu" possui a propriedade "position" como "absolute", porém não foi definida a propriedade "z-index". Por padrão, será atribuído o valor 1 a ela.
+O swiper (carrossel usado no projeto) por padrão tem a propriedade "position" como "relative" e, por padrão, a propriedade "z-index" é 1.
+Quando dois elementos têm o mesmo valor de "z-index", o que determina a ordem de empilhamento no navegador é a ordem em que estão no código HTML. Ou seja, o último elemento no código ficará em cima dos outros.
+Para resolver o problema, basta atribuir um valor maior que 1 para "z-index" na classe "lista-menu".
+
+>atribui o valor de 10 para z-index.
 
 
 
