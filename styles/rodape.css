@@ -49,6 +49,7 @@
     
     .rodape__listas-item:hover {
         color: var(--azul);
+        cursor: pointer;
     }
 
     .rodape__lista-icone {
